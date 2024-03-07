@@ -19,7 +19,9 @@ namespace Aroma_Coffee
             label2.Text = "Version 1. 0. 0. 0.";
             label3.Text = "Copyright";
             label4.Text = "Microsoft Samples";
-            listBox1.Items.Add("Nuszbaum Henriett" + "Szoldatics Levente");
+            listBox1.Items.Add("Nuszbaum Henriett");
+            listBox1.Items.Add("Szoldatics Levente");
+            listBox1.Enabled = false;
         }
     }
 }

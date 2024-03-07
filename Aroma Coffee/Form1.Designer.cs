@@ -39,9 +39,6 @@
             label2 = new Label();
             label1 = new Label();
             textBox4 = new TextBox();
-            menuStrip2 = new MenuStrip();
-            névjegyzékToolStripMenuItem = new ToolStripMenuItem();
-            kilépésToolStripMenuItem = new ToolStripMenuItem();
             groupBox2 = new GroupBox();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
@@ -55,7 +52,6 @@
             numericUpDown1 = new NumericUpDown();
             numericUpDown2 = new NumericUpDown();
             groupBox1.SuspendLayout();
-            menuStrip2.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
@@ -159,27 +155,6 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(65, 23);
             textBox4.TabIndex = 8;
-            // 
-            // menuStrip2
-            // 
-            menuStrip2.Items.AddRange(new ToolStripItem[] { névjegyzékToolStripMenuItem, kilépésToolStripMenuItem });
-            menuStrip2.Location = new Point(0, 0);
-            menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(774, 24);
-            menuStrip2.TabIndex = 2;
-            menuStrip2.Text = "menuStrip2";
-            // 
-            // névjegyzékToolStripMenuItem
-            // 
-            névjegyzékToolStripMenuItem.Name = "névjegyzékToolStripMenuItem";
-            névjegyzékToolStripMenuItem.Size = new Size(79, 20);
-            névjegyzékToolStripMenuItem.Text = "Névjegyzék";
-            // 
-            // kilépésToolStripMenuItem
-            // 
-            kilépésToolStripMenuItem.Name = "kilépésToolStripMenuItem";
-            kilépésToolStripMenuItem.Size = new Size(56, 20);
-            kilépésToolStripMenuItem.Text = "Kilépés";
             // 
             // groupBox2
             // 
@@ -312,14 +287,11 @@
             Controls.Add(listBox1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Controls.Add(menuStrip2);
             Name = "Form1";
             Text = "Form1";
             TransparencyKey = Color.FromArgb(255, 255, 128);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            menuStrip2.ResumeLayout(false);
-            menuStrip2.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
@@ -332,9 +304,6 @@
 
         private GroupBox groupBox1;
         private Label label1;
-        private MenuStrip menuStrip2;
-        private ToolStripMenuItem névjegyzékToolStripMenuItem;
-        private ToolStripMenuItem kilépésToolStripMenuItem;
         private GroupBox groupBox2;
         private TextBox textBox1;
         private Label label5;
